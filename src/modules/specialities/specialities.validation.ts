@@ -1,5 +1,4 @@
 import { z } from 'zod';
-import { TSpeciality } from './dto.specialities';
 
 export const Speciality = z.object({
   title: z
