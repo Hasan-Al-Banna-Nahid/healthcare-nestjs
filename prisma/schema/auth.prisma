@@ -15,6 +15,7 @@ model User {
   deletedAt          DateTime?
   password           String?
   patients           Patient[]
+  doctors            Doctor[]
 
   @@unique([email])
   @@map("user")
